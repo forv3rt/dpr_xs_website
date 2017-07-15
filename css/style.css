@@ -55,7 +55,6 @@ section{
   padding-left: 20px;
   min-height: 690px;
   background-color: rgba(0, 0, 0, 0.7);
-  display: block;
 }
 section h1 {
   margin: 0;
@@ -63,10 +62,21 @@ section h1 {
   padding-bottom:30px;
 }
 
-section p{
-  margin:0;
-  padding
+section .boxes{
+  padding-right: 30px;
+  padding-top: 0px;
+  float: left;
+  display: inline-block;
+  text-align: center;
+  font-size: 15px;
 }
+
+section .boxes p{
+  margin: 0;
+  margin-top: -25px;
+  background-color: rgba(0, 0, 0, 1);
+}
+
 
 /* Footer */
 footer{
