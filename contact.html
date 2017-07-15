@@ -25,7 +25,23 @@
     </nav>
     <section>
       <h1>Hey you!</h1>
-      <p>Send your demos as a private link to: https://soundcloud.com/deeper-access</p>
+      <form action="mailto:deine@e-mail-adresse.de" method="post">
+        <p>Tell us why?</p>
+        <select name="Why?" size="4" overflow=hidden="" required>
+          <option value="Demo">Demo</option>
+          <option value="Booking">Booking</option>
+          <option value="Question">Question</option>
+          <option value="Other">Other</option>
+        </select>
+        <br /> <br />
+        Your Name: <input type="text" name="name" value="" required/>
+        <br /> <br />
+        Your E-Mail: <input type="email" name="email" value="" required/>
+        <br /> <br />
+        <p>Your Message:</p> <textarea name="message" rows="10" cols="60" required></textarea>
+        <br /> <br />
+        <input type="submit" name="submit" value="Send it over!"/>
+      </form>
     </section>
     <footer>
       <p>Copyright &copy; Deeper Access 2017</p>
