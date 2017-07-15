@@ -6,6 +6,11 @@ body{
   padding:0;
   margin:0;
 }
+
+body p{
+  margin:0;
+}
+
 /* Header */
 header{
   margin:0;
@@ -64,8 +69,33 @@ section h1 {
 }
 
 section p{
-  margin:0;
-  padding
+  margin: :0;
+  padding: 0;
+}
+
+section .boxes{
+  padding-right: 30px;
+  padding-top: 0px;
+  float: left;
+  display: inline-block;
+  text-align: center;
+  font-size: 15px;
+
+}
+
+section .boxes p{
+  margin: 0;
+  margin-top: 5px;
+  background-color: #ffffff;
+  opacity: 0.9;
+  color: #000000;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+section form p{
+  padding-right: 30px;
+  float: left;
 }
 
 /* Footer */
