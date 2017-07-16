@@ -9,6 +9,7 @@ body{
 
 body p{
   margin:0;
+  padding:0;
 }
 
 /* Header */
@@ -18,7 +19,6 @@ header{
 }
 header img{
   float: left;
-  opacity: 1;
   display: block;
 }
 
@@ -68,11 +68,6 @@ section h1 {
   padding-bottom:30px;
 }
 
-section p{
-  margin: :0;
-  padding: 0;
-}
-
 section .boxes{
   padding-right: 30px;
   padding-top: 0px;
@@ -80,7 +75,9 @@ section .boxes{
   display: inline-block;
   text-align: center;
   font-size: 15px;
-
+}
+section .boxes img{
+    border-radius: 5px;
 }
 
 section .boxes p{
@@ -91,6 +88,7 @@ section .boxes p{
   color: #000000;
   padding-top: 5px;
   padding-bottom: 5px;
+  border-radius: 5px;
 }
 
 section form p{
@@ -111,4 +109,10 @@ footer{
 footer p{
   margin:0;
   padding-top: 10px;
+}
+
+footer a{
+  text-decoration:none;
+  color:#ffffff;
+  font-size: 30px;
 }
