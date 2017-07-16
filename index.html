@@ -7,12 +7,19 @@
     <meta name="keywords" content="deeper access, drum and bass, halftime, techno, dnb, music"/>
     <meta name="author" content="Erik Schiller"/>
     <title>Deeper Access | dpr_home</title>
-    <link rel="stylesheet" href="./css/style.css"/>
-    <link rel="stylesheet" href="./css/font-awesome.min.css">
-    <link rel="import" href="/shared/header.html">
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+    <link rel="import" href="./shared/header.html"/>
+    <script src="./scripts/jquery-3.2.1.min.js"></script>
   </head>
+  <script>
+    $(function(){
+      $("header").load("shared/header.html")
+    });
+  </script>
   <body>
-      <link rel="import" href="/shared/header.html">
+    <div id="header"></div>
+
     <section>
       <h1>Welcome To Our New Website!</h1>
       <p>This is brand new !</p>
